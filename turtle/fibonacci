@@ -60,6 +60,7 @@ n = int(input("escolha o número de repetições (> 1): "))
 if n > 0:
     print(f"série de Fibonacci para {n} elementos: ")
     tortoise = turtle.Turtle()
+    turtle.title("fibonacci spirals")
     tortoise.speed(100)
     fibonacci(n)
     turtle.done()
